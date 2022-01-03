@@ -1,9 +1,9 @@
 Shader "AP01/L07/L07_test_3ColAmbient" {
     Properties {
-        _Occlusion ("环境遮挡贴图", 2d) = "white" {} //AO图默认颜色应为白色
-        _EnvUpCol ("朝上环境色", COLOR) = (1.0, 1.0, 1.0, 1.0)
-        _EnvSideCol ("侧面环境色", COLOR) = (0.5, 0.5, 0.5, 1.0)
-        _EnvDownCol ("下方环境色", COLOR) = (1.0, 1.0, 1.0, 1.0)
+        _Occlusion ("AO贴图", 2d) = "white" {} //AO图默认颜色应为白色
+        _EnvUpCol ("环境天顶颜色", COLOR) = (1.0, 1.0, 1.0, 1.0)
+        _EnvSideCol ("环境水平颜色", COLOR) = (0.5, 0.5, 0.5, 1.0)
+        _EnvDownCol ("环境地表颜色", COLOR) = (1.0, 1.0, 1.0, 1.0)
     }
     SubShader {
         Tags {

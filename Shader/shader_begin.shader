@@ -30,7 +30,7 @@ Shader "AP01/L03/shader_begin" {
                 return o;
             }
             float4 frag(VertexOutput i) : COLOR {
-                return fixed4(0.3, 0.2, 0.3, 1.0);
+                return fixed4(0.0, 0.5, 0.5, 1.0);
             }
             ENDCG
         }
