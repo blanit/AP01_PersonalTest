@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L11_test_dota2_back
+  m_Shader: {fileID: 4800000, guid: cba835f5796d1f547b6fdd0fc1eafaec, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: aed7979589795184f9e5af6a7a748c2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmitTex:
+        m_Texture: {fileID: 2800000, guid: 6716f7c8099ae2541b86ec2ee118b11c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4c6a40d16b1eaea4c94b0d984feaa15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalTex:
+        m_Texture: {fileID: 2800000, guid: 91512f4b0c8638f42b0d98bcf4ccf2fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormTex:
+        m_Texture: {fileID: 2800000, guid: 517b53846e20c9f499b361fef8616845, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTex:
+        m_Texture: {fileID: 2800000, guid: 1d8eef59452b81d46a0a36045a7d5b18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecIntTex:
+        m_Texture: {fileID: 2800000, guid: 09bb3a85e104d8c4f827ddac6e6fe53d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecPowTex:
+        m_Texture: {fileID: 2800000, guid: f021625d06d13d74ba89657c90633fd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintTex:
+        m_Texture: {fileID: 2800000, guid: fde135c0e0cbb394f96422d64dc3cc5a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TransTex:
+        m_Texture: {fileID: 2800000, guid: f5abc5941e5c1b3468e34ce0d0adbd0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _detTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CubeMapMip: 4.33
+    - _Emission: 6
+    - _EnvDiffInt: 1
+    - _EnvSpecInt: 1
+    - _FresnelPow: 0
+    - _SpecInt: 1
+    - _SpecPow: 26
+    m_Colors:
+    - _BaseCol: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+    - _EnvDownCol: {r: 0.3773585, g: 0.24160053, b: 0.069419734, a: 0}
+    - _EnvSideCol: {r: 0.43173727, g: 0.6226415, b: 0.49233183, a: 1}
+    - _EnvUpCol: {r: 0.6975347, g: 0.8962264, b: 0.8522716, a: 1}
+  m_BuildTextureStacks: []
