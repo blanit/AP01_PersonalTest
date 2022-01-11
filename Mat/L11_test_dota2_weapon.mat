@@ -77,7 +77,7 @@ Material:
     - _EnvDiffInt: 0.7
     - _EnvSpecInt: 5
     - _FresnelPow: 0
-    - _SpecInt: 2.5
+    - _SpecInt: 4
     - _SpecPow: 1
     m_Colors:
     - _BaseCol: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}

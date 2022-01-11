@@ -33,13 +33,13 @@ Shader "AP01/L11/L11_test_dota2" {
         Tags {
             "RenderType"="Opaque"
         } 
-        Cull Off
         Pass {
             Name "FORWARD"
             Tags {
                 "LightMode"="ForwardBase"
             }
             
+            Cull Off
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -132,14 +132,14 @@ Shader "AP01/L11/L11_test_dota2" {
                 float3 var_CubeMap = texCUBElod(_CubeMap, float4(vrDirWS, lerp(8.0, 0.0, var_SpecPowTex))).rgb;
                 // 光照模型
                     // AlphaTest
-                    clip(var_TransTex - 0.9);
+                    clip(var_TransTex - 0.5);
                     // 直接光照_Diffuse_Lambert
                     float3 diffCol = var_MainTex.rgb * _BaseCol;
                     float3 detCol = var_DetTex.rgb * var_DetTex.a;
                     diffCol += detCol;
                     float Lambert = max(0.0, ndotl);
                     // 直接光照_Specular_Phong
-                    float3 SpecCol = lerp(float3(1.0, 1.0, 1.0), diffCol, 1.0 - var_TintTex);
+                    float3 SpecCol = lerp(diffCol, float3(0.3, 0.3, 0.3), var_TintTex);
                     float SpecPow = lerp(1.0, _SpecPow, var_SpecPowTex);
                     float3 phong = pow(max(0.0, vdotr), _SpecPow);
                     // 直接光照合成

@@ -75,9 +75,9 @@ Material:
     - _CubeMapMip: 4.33
     - _Emission: 6
     - _EnvDiffInt: 1
-    - _EnvSpecInt: 1
+    - _EnvSpecInt: 5
     - _FresnelPow: 0
-    - _SpecInt: 1
+    - _SpecInt: 2
     - _SpecPow: 26
     m_Colors:
     - _BaseCol: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
